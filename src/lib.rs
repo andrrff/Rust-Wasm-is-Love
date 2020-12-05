@@ -83,14 +83,14 @@ impl Component for Model {
     }
 }
 
-fn progress(n: i64) -> String
-{
-    let concat = n.to_string().to_owned();
-    let widht = "width: ".to_string();
-    let porcent = "%".to_string();
-    let concatenation = format!("{}{}{}",widht, concat, porcent);
-    concatenation
-}
+// fn progress(n: i64) -> String
+// {
+//     let concat = n.to_string().to_owned();
+//     let widht = "width: ".to_string();
+//     let porcent = "%".to_string();
+//     let concatenation = format!("{}{}{}",widht, concat, porcent);
+//     concatenation
+// }
 
 #[wasm_bindgen(start)]
 pub fn run_app() {
