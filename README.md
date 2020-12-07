@@ -4,7 +4,7 @@ Sequência de Fibonacci feita em wasm, usando o framework Yew e Bootstrap!\n
 
 Instale primeiro:
 
-*= cargo install trunk wasm-bindgen-cli =*
+//! cargo install trunk wasm-bindgen-cli !*
 
 **build**
 
